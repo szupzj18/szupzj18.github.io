@@ -2,10 +2,14 @@
 title: "Reading list"
 date: 2026-10-28
 tags: [reading]
-summary: "86 books, articles and talks I have read, newest first, with a line or two on each."
+summary: "87 books, articles and talks I have read, newest first, with a line or two on each."
 ---
 
 The goal that started this: read 100 books first (the idea comes from [durmonski.com](https://durmonski.com/private/reading-100-books/)). The list below is my running record, newest at the top. It mixes books with essays, interviews and videos, and not everything was finished; some entries only say how far I got. Notes are in Chinese, the language I read most in.
+
+## 87 非对称风险
+
+在读
 
 ## 86 数学平话
 
