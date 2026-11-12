@@ -110,14 +110,18 @@ try {
           const check = () => {
             const summaries = ${JSON.stringify(work.map((item) => version.kind === 'v3' && version.language === 'zh' ? item.zh.summary : item.summary))};
             const text = document.body?.innerText || '';
-            if (summaries.every((summary) => text.includes(summary))) {
+            // v1 prints neofetch on load without Selected Work; the work command still shows it (checked below).
+            const ready = ${JSON.stringify(version.kind === 'v1')}
+              ? text.includes('chris@') && !summaries.some((summary) => text.includes(summary))
+              : summaries.every((summary) => text.includes(summary));
+            if (ready) {
               document.fonts.ready.then(() => {
                 window.scrollTo(0, 0);
                 resolve({ url: location.href, title: document.title, width: innerWidth,
                   scrollWidth: document.documentElement.scrollWidth, summaries: summaries.length,
                   selectedWork: text.includes('selected work') || text.includes('SELECTED WORK') || text.includes('精选工作') });
               });
-            } else if (Date.now() - start > 15000) reject(new Error('Selected Work did not render'));
+            } else if (Date.now() - start > 15000) reject(new Error('Page did not render as expected'));
             else setTimeout(check, 50);
           }; check();
         })`,

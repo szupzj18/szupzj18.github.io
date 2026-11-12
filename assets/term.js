@@ -316,8 +316,6 @@
     info.append(h('div', { class: 'ln swatch', 'aria-hidden': 'true' },
       ['r', 'o', 'y', 'g', 'c', 'bl', 'pu', 'h'].map((c) => s(c, '███'))));
     block.append(h('div', { class: 'fetch' }, logo, motto(p), info));
-    blank();
-    catWork();
   }
 
   function activityLine(e) {
