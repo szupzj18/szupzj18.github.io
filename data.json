@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T07:55:34Z",
+ "generated_at": "2026-11-16T07:57:13Z",
  "source": "Public GitHub data for github.com/szupzj18 (profile, public repos, profile README, public events, public contribution calendar).",
  "profile": {
   "login": "szupzj18",
@@ -16,7 +16,7 @@
    "url": "/skills/"
   },
   "now": "Building small, sharp tools around coding agents — session memory, multi-account, simulator control.",
-  "followers": 12,
+  "followers": 13,
   "following": 15,
   "created_at": "2018-05-05T12:34:19Z",
   "domain": "chrispan.me"
@@ -284,7 +284,7 @@
   },
   {
    "name": "Swift",
-   "repos": 6
+   "repos": 7
   },
   {
    "name": "Rust",
@@ -317,6 +317,71 @@
  ],
  "repos": [
   {
+   "name": "mnemo",
+   "description": "Full-text search across local coding-agent sessions (Claude Code, Codex, Pi) and remote devices",
+   "language": "Python",
+   "stars": 4,
+   "archived": false,
+   "topics": [],
+   "homepage": "https://szupzj18.github.io/mnemo/",
+   "url": "https://github.com/szupzj18/mnemo",
+   "created_at": "2026-09-24T08:05:01Z",
+   "pushed_at": "2026-11-15T00:53:09Z"
+  },
+  {
+   "name": "szupzj18.github.io",
+   "description": "Hello world at chrispan.me",
+   "language": "HTML",
+   "stars": 0,
+   "archived": false,
+   "topics": [],
+   "homepage": "https://chrispan.me/",
+   "url": "https://github.com/szupzj18/szupzj18.github.io",
+   "created_at": "2026-10-15T06:35:52Z",
+   "pushed_at": "2026-11-13T07:57:16Z"
+  },
+  {
+   "name": "wiki",
+   "description": "Personal knowledge base, published from Obsidian with Quartz",
+   "language": "HTML",
+   "stars": 0,
+   "archived": false,
+   "topics": [],
+   "homepage": null,
+   "url": "https://github.com/szupzj18/wiki",
+   "created_at": "2026-11-04T08:57:59Z",
+   "pushed_at": "2026-11-11T07:55:30Z"
+  },
+  {
+   "name": "MarqueeGlow",
+   "description": "A SwiftUI modifier that sends a band of color around a view's rounded edge, with a halo and an edge highlight. 60 fps while scrolling.",
+   "language": "Swift",
+   "stars": 0,
+   "archived": false,
+   "topics": [
+    "animation",
+    "ios",
+    "swift-package",
+    "swiftui"
+   ],
+   "homepage": null,
+   "url": "https://github.com/szupzj18/MarqueeGlow",
+   "created_at": "2026-11-09T15:11:35Z",
+   "pushed_at": "2026-11-09T15:12:58Z"
+  },
+  {
+   "name": "snap",
+   "description": "Open-source screenshot tool for macOS, in the spirit of CleanShot X",
+   "language": "Swift",
+   "stars": 2,
+   "archived": false,
+   "topics": [],
+   "homepage": null,
+   "url": "https://github.com/szupzj18/snap",
+   "created_at": "2026-10-22T08:42:11Z",
+   "pushed_at": "2026-11-09T14:41:17Z"
+  },
+  {
    "name": "instax-sp2-ios",
    "description": "Print to Fujifilm Instax SHARE SP-2 from iPhone (SwiftUI), directly over Wi-Fi or via a Raspberry Pi bridge",
    "language": "Swift",
@@ -329,18 +394,6 @@
    "pushed_at": "2026-11-09T06:53:26Z"
   },
   {
-   "name": "wiki",
-   "description": "Personal knowledge base, published from Obsidian with Quartz",
-   "language": "HTML",
-   "stars": 0,
-   "archived": false,
-   "topics": [],
-   "homepage": null,
-   "url": "https://github.com/szupzj18/wiki",
-   "created_at": "2026-11-04T08:57:59Z",
-   "pushed_at": "2026-11-09T05:15:25Z"
-  },
-  {
    "name": "zorua",
    "description": "Run several Codex and Claude Code accounts side by side — one per terminal. Each account keeps its own sign-in, sessions, settings and quota.",
    "language": "Python",
@@ -351,30 +404,6 @@
    "url": "https://github.com/szupzj18/zorua",
    "created_at": "2026-09-30T15:26:44Z",
    "pushed_at": "2026-11-07T08:41:32Z"
-  },
-  {
-   "name": "mnemo",
-   "description": "Full-text search across local coding-agent sessions (Claude Code, Codex, Pi) and remote devices",
-   "language": "Python",
-   "stars": 3,
-   "archived": false,
-   "topics": [],
-   "homepage": "https://szupzj18.github.io/mnemo/",
-   "url": "https://github.com/szupzj18/mnemo",
-   "created_at": "2026-09-24T08:05:01Z",
-   "pushed_at": "2026-11-06T08:32:11Z"
-  },
-  {
-   "name": "szupzj18.github.io",
-   "description": "Hello world at chrispan.me",
-   "language": "HTML",
-   "stars": 0,
-   "archived": false,
-   "topics": [],
-   "homepage": "https://chrispan.me/",
-   "url": "https://github.com/szupzj18/szupzj18.github.io",
-   "created_at": "2026-10-15T06:35:52Z",
-   "pushed_at": "2026-11-04T15:40:07Z"
   },
   {
    "name": "BeautifulUI",
@@ -398,18 +427,6 @@
    "url": "https://github.com/szupzj18/BeautifulUI",
    "created_at": "2026-11-01T04:11:29Z",
    "pushed_at": "2026-11-02T06:59:54Z"
-  },
-  {
-   "name": "snap",
-   "description": "Open-source screenshot tool for macOS, in the spirit of CleanShot X",
-   "language": "Swift",
-   "stars": 2,
-   "archived": false,
-   "topics": [],
-   "homepage": null,
-   "url": "https://github.com/szupzj18/snap",
-   "created_at": "2026-10-22T08:42:11Z",
-   "pushed_at": "2026-10-25T15:12:18Z"
   },
   {
    "name": "flick",
@@ -687,28 +704,12 @@
  ],
  "activity": [
   {
-   "at": "2026-11-09T06:53:27Z",
+   "at": "2026-11-13T07:57:17Z",
    "kind": "push",
-   "repo": "szupzj18/instax-sp2-ios",
+   "repo": "szupzj18/szupzj18.github.io",
    "branch": "main",
    "count": 1,
-   "url": "https://github.com/szupzj18/instax-sp2-ios/commits/main"
-  },
-  {
-   "at": "2026-11-08T13:47:36Z",
-   "kind": "push",
-   "repo": "szupzj18/szupzj18",
-   "branch": "main",
-   "count": 2,
-   "url": "https://github.com/szupzj18/szupzj18/commits/main"
-  },
-  {
-   "at": "2026-11-07T08:41:34Z",
-   "kind": "push",
-   "repo": "szupzj18/zorua",
-   "branch": "main",
-   "count": 1,
-   "url": "https://github.com/szupzj18/zorua/commits/main"
+   "url": "https://github.com/szupzj18/szupzj18.github.io/commits/main"
   },
   {
    "at": "2026-10-26T07:14:38Z",
@@ -808,43 +809,8 @@
   }
  ],
  "contributions": {
-  "total_last_year": 2197,
+  "total_last_year": 2461,
   "days": [
-   {
-    "date": "2025-11-09",
-    "count": 0,
-    "level": 0
-   },
-   {
-    "date": "2025-11-10",
-    "count": 0,
-    "level": 0
-   },
-   {
-    "date": "2025-11-11",
-    "count": 0,
-    "level": 0
-   },
-   {
-    "date": "2025-11-12",
-    "count": 0,
-    "level": 0
-   },
-   {
-    "date": "2025-11-13",
-    "count": 0,
-    "level": 0
-   },
-   {
-    "date": "2025-11-14",
-    "count": 0,
-    "level": 0
-   },
-   {
-    "date": "2025-11-15",
-    "count": 4,
-    "level": 1
-   },
    {
     "date": "2025-11-16",
     "count": 9,
@@ -2637,7 +2603,42 @@
    },
    {
     "date": "2026-11-09",
-    "count": 28,
+    "count": 46,
+    "level": 2
+   },
+   {
+    "date": "2026-11-10",
+    "count": 36,
+    "level": 1
+   },
+   {
+    "date": "2026-11-11",
+    "count": 22,
+    "level": 1
+   },
+   {
+    "date": "2026-11-12",
+    "count": 67,
+    "level": 2
+   },
+   {
+    "date": "2026-11-13",
+    "count": 34,
+    "level": 1
+   },
+   {
+    "date": "2026-11-14",
+    "count": 45,
+    "level": 1
+   },
+   {
+    "date": "2026-11-15",
+    "count": 33,
+    "level": 1
+   },
+   {
+    "date": "2026-11-16",
+    "count": 13,
     "level": 1
    }
   ]
