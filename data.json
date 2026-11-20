@@ -23,6 +23,18 @@
  },
  "links": [
   {
+   "label": "Persona",
+   "url": "https://personaside.com"
+  },
+  {
+   "label": "Wiki",
+   "url": "https://szupzj18.github.io/wiki"
+  },
+  {
+   "label": "X",
+   "url": "https://x.com/chrisofworld108"
+  },
+  {
    "label": "GitHub",
    "url": "https://github.com/szupzj18"
   },
@@ -114,6 +126,12 @@
   }
  ],
  "featured": [
+  {
+   "name": "persona",
+   "summary": "Private AI assistant on iPhone / Watch that runs the coding agents on all your computers.",
+   "url": "https://github.com/nwverse/persona",
+   "homepage": "https://personaside.com"
+  },
   {
    "name": "mnemo",
    "summary": "One memory for all your coding agents. Full-text search across local Claude Code, Codex, OpenCode and Pi sessions, plus remote devboxes.",

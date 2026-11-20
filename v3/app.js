@@ -81,7 +81,7 @@
         h('dt', null, b(x.name), '(' + (x.man || 1) + ')', meta ? h('span', { class: 'meta' }, '  ' + meta) : ''),
         h('dd', null, h('p', null, content.summary),
           content.points ? h('ul', { class: 'pts' }, content.points.map((point) => h('li', null, point))) : null,
-          h('p', null, h('span', { class: 'dim' }, t('Stack: ', '技术：')), content.stack.join(t(', ', '、')), t('. ', '。 '), links),
+          h('p', null, content.stack ? [h('span', { class: 'dim' }, t('Stack: ', '技术：')), content.stack.join(t(', ', '、')), t('. ', '。 ')] : '', links),
           x.credit ? h('p', null, h('span', { class: 'dim' }, (content.credit_text || x.credit.text) + ' '), h('a', { href: x.credit.url, class: 'bare' }, x.credit.link), h('span', { class: 'dim' }, ' (' + x.credit.license + ')' + t('.', '。'))) : null),
       ];
     }));

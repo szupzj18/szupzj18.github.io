@@ -160,7 +160,8 @@
     blank();
     print(s('y b', '● featured'));
     for (const f of D.featured) {
-      printi(run('cat ' + repoPath(findRepo(f.name)), f.name), s('dim', '  ' + f.stack.join(' · ')));
+      const r = findRepo(f.name);
+      printi(r ? run('cat ' + repoPath(r), f.name) : s('b', f.name), f.stack ? s('dim', '  ' + f.stack.join(' · ')) : '');
       printi(f.summary);
       printi(a(f.homepage || f.url));
     }
